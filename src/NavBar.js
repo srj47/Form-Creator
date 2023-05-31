@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
@@ -26,15 +26,15 @@ const NavBar = () => {
               {/* <Nav.Link href="/" className="fw-bolder">
                 Home
               </Nav.Link> */}
-              <Nav.Link href="/CreateForm" className="fw-bolder">
+              <NavLink to="/CreateForm" className="fw-bolder">
                 Create new
-              </Nav.Link>
-              <Nav.Link href="/MyForms" className="fw-bolder">
+              </NavLink>
+              <NavLink to="/MyForms" className="fw-bolder ms-3">
                 My Forms
-              </Nav.Link>
-              <Nav.Link href="/Support" className="fw-bolder ms-3">
+              </NavLink>
+              <NavLink to="/Support" className="fw-bolder ms-3">
                 Support
-              </Nav.Link>
+              </NavLink>
               {/* <Nav.Link
                 href=""
                 className="fw-bolder text-decoration-underline text-dark ms-3"
