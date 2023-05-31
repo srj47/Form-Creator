@@ -22,13 +22,13 @@ Red 			f06dd6ff
 
 .bg-dark-blue {
   /* background-color: rgb(30, 2, 56); */
-  background-color: #34065f;
+  background-color: #062136;
 }
 .footer ul li {
   margin-top: 10px;
   cursor: pointer;
-  color: rgb(150, 146, 146);
-  font-weight: bolder;
+  color: rgb(202, 200, 200);
+  /* font-weight: bolder; */
 }
 
 a {

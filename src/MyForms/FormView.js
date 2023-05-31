@@ -5,7 +5,7 @@ import "./Form.css";
 const FormView = () => {
   return (
     <>
-      <div className="container">
+      <div className="col-sm-7 mx-auto">
         <div className="form my-5 ">
           <div className="title-div">
             <h1>STUDENT FORM</h1>
@@ -14,10 +14,7 @@ const FormView = () => {
           </div>
           <div className="row mx-0 px-0">
             <TextBox />
-            <CheckBox />
-            <TextBox />
-            <DropDown />
-            <RadiokBox />
+            <TextArea />
             <DatePicker />
           </div>
 
@@ -43,7 +40,7 @@ const TextBox = (props) => {
     <>
       <div className="col-sm-6">
         <label className="mt-5">
-          what is your name?
+          Full Name
           <Required />
         </label>
         <input
@@ -62,7 +59,7 @@ const TextArea = (props) => {
     <>
       <div className="col-sm-12">
         <label className="mt-5">
-          TextArea
+          Address
           <Required />
         </label>
         <textarea
@@ -175,7 +172,7 @@ const DatePicker = (props) => {
     <>
       <div className="col-sm-6">
         <label className="mt-5">
-          Date Picker
+          Date of Birth
           <Required />
         </label>
         <div className="mb-3">

@@ -22,6 +22,16 @@ root.render(
         element={
           <>
             <NavBar />
+            <SignIn />
+            <Footer />
+          </>
+        }
+      />
+      <Route
+        path="/LandingPage"
+        element={
+          <>
+            <NavBar />
             <LandingPage />
             <Footer />
           </>

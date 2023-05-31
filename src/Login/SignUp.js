@@ -15,6 +15,15 @@ function SignUp() {
               <h6>make yourself happy with us</h6>
               <div className="mb-3 mt-3">
                 <input
+                  type="text"
+                  className="form-control rounded-pill mt-3"
+                  id="name"
+                  placeholder="Enter name"
+                  name="name"
+                />
+              </div>
+              <div className="mb-3 mt-3">
+                <input
                   type="email"
                   className="form-control rounded-pill mt-3"
                   id="email"
@@ -22,6 +31,7 @@ function SignUp() {
                   name="email"
                 />
               </div>
+
               <div className="mb-3">
                 <input
                   type="password"
@@ -41,18 +51,18 @@ function SignUp() {
                 />
               </div>
               <Link
-                to="/Dashboard"
+                to="/LandingPage"
                 type="submit"
-                className="btn bg-primary text-white py-2 shadow rounded-pill "
+                className="btn bg-dark-blue text-white py-2 shadow rounded-pill "
               >
                 Submit
               </Link>
               <hr className="col-12 border-0" />
-              
+
               <hr className="col-12 border-0 mt-5" />
             </div>
           </div>
-          <div className="col-sm-5 bg-primary p-5 d-flex align-items-center justify-content-center">
+          <div className="col-sm-5 bg-dark-blue p-5 d-flex align-items-center justify-content-center">
             <div className="text-center">
               <h2 className="bold text-white my-3">Already joined </h2>
               <p className="text-white ">Welcome again!</p>

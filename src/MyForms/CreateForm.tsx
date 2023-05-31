@@ -62,9 +62,9 @@ const App = () => {
                       <option value=""> </option>
                       <option value="TextBox">Text Box </option>
                       <option value="TextArea">Text Area</option>
-                      <option value="Dropdown">Dropdown</option>
+                      {/* <option value="Dropdown">Dropdown</option>
                       <option value="CheckBox">Check Box</option>
-                      <option value="RadioBox">Radio Box</option>
+                      <option value="RadioBox">Radio Box</option> */}
                       <option value="DatePicker">Date Picker</option>
                     </select>
                   </div>
@@ -104,9 +104,8 @@ const App = () => {
                       }}
                       value={p.IsRequire}
                     >
-                      <option value=""></option>
-                      <option value="N">No</option>
                       <option value="Y">Yes</option>
+                      <option value="N">No</option>
                     </select>
                   </div>
                   <div className="col-sm-2">
@@ -146,6 +145,10 @@ const App = () => {
                   />
                   <p className="m-0 p-0 mt-1">Add field</p>
                 </div>
+              </button>
+
+              <button className="btn btn-primary w-auto h-auto px-3  ml-auto ">
+                Create
               </button>
             </div>
 

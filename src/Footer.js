@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <div className="row mx-0 footer bg-dark-blue  p-4 text-light">
+      <div className="row mx-0 footer bg-dark-blue  pt-5 pb-4 text-light">
         <div className="col-sm-3 ms-auto">
           <h5 className="ms-3">Form Creator </h5>
           <ul className="">

@@ -15,7 +15,7 @@ const NavBar = () => {
         variant="light"
         className="container-fluid"
       >
-        <Container className="">
+        <Container className="col-sm-9 mx-auto">
           <Link to="/">
             <Navbar.Brand className="fw-bold">Form Creator</Navbar.Brand>
           </Link>
@@ -23,8 +23,11 @@ const NavBar = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto">
+              {/* <Nav.Link href="/" className="fw-bolder">
+                Home
+              </Nav.Link> */}
               <Nav.Link href="/CreateForm" className="fw-bolder">
-                Create
+                Create new
               </Nav.Link>
               <Nav.Link href="/MyForms" className="fw-bolder">
                 My Forms
@@ -32,7 +35,7 @@ const NavBar = () => {
               <Nav.Link href="/Support" className="fw-bolder ms-3">
                 Support
               </Nav.Link>
-              <Nav.Link
+              {/* <Nav.Link
                 href=""
                 className="fw-bolder text-decoration-underline text-dark ms-3"
               >
@@ -46,7 +49,7 @@ const NavBar = () => {
                 className="fw-bolder text-decoration-underline text-dark ms-3"
               >
                 Sign In
-              </Nav.Link>
+              </Nav.Link> */}
             </Nav>
           </Navbar.Collapse>
         </Container>

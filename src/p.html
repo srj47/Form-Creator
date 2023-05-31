@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="suraj" />
+    <meta
+      name="viewport"
+      content="width=device-width, initialscale=
+1.0"
+    />
+    <title>Eight Program</title>
+    <style>
+      #p1 {
+        height: 200px;
+        background-color: red;
+        width: 200px;
+        position: fixed;
+        z-index: 1;
+        left: 500px;
+        top: 0;
+        color: white;
+        text-align: center;
+        cursor: pointer;
+      }
+      #p2 {
+        height: 200px;
+        background-color: yellow;
+        width: 200px;
+        position: fixed;
+        z-index: 2;
+        left: 525px;
+        top: 30px;
+        color: red;
+        text-align: center;
+        cursor: pointer;
+      }
+      #p3 {
+        height: 200px;
+        background-color: teal;
+        width: 200px;
+        position: fixed;
+        z-index: 3;
+        left: 550px;
+        top: 60px;
+        color: white;
+        text-align: center;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <p onmouseover="changeStackPosition(p1,p3,p2)" id="p1">Paragraph 1</p>
+    <p onmouseover="changeStackPosition(p2,p1,p3)" id="p2">Paragraph 2</p>
+    <p onmouseover="changeStackPosition(p3,p2,p1)" id="p3">Paragraph 3</p>
+    <script>
+      changeStackPosition = (top, second, third) => {
+        top.style.zIndex = 3;
+        second.style.zIndex = 2;
+        third.style.zIndex = 1;
+      };
+    </script>
+  </body>
+</html>

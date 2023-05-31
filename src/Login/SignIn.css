@@ -16,3 +16,9 @@
 .logo {
   width: 150px;
 }
+.btn {
+  transition: all 0.3s ease !important;
+}
+.btn:hover {
+  color: black !important;
+}

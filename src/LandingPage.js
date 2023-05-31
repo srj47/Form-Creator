@@ -6,7 +6,7 @@ import img5 from "./img/img (5).jpg";
 const LandingPage = () => {
   return (
     <>
-      <div className="container">
+      <div className="container-fluid">
         {/* section 1 */}
         <div
           className="text-center "
