@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Form-Creator/static/css/main.da206902.css",
-    "main.js": "/Form-Creator/static/js/main.bc8d0ddb.js",
+    "main.js": "/Form-Creator/static/js/main.496aab62.js",
     "static/media/img (1).jpg": "/Form-Creator/static/media/img (1).2c8ecf593a7b3af40659.jpg",
     "static/media/img (4).jpg": "/Form-Creator/static/media/img (4).6cfe0d2ddda03ef17c73.jpg",
     "static/media/img (5).jpg": "/Form-Creator/static/media/img (5).6b2495241a511368a8c5.jpg",
     "static/media/img (2).jpg": "/Form-Creator/static/media/img (2).062b2fa24f9fb13c324c.jpg",
     "index.html": "/Form-Creator/index.html",
     "main.da206902.css.map": "/Form-Creator/static/css/main.da206902.css.map",
-    "main.bc8d0ddb.js.map": "/Form-Creator/static/js/main.bc8d0ddb.js.map"
+    "main.496aab62.js.map": "/Form-Creator/static/js/main.496aab62.js.map"
   },
   "entrypoints": [
     "static/css/main.da206902.css",
-    "static/js/main.bc8d0ddb.js"
+    "static/js/main.496aab62.js"
   ]
 }
